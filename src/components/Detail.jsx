@@ -5,13 +5,15 @@ import { dummy } from '../movieDummy';
 
 const IMG_BASE_URL = "https://image.tmdb.org/t/p/w1280/";
 const DetailContainer = styled.div`
+  
+  height: 40rem;
   display: flex;
   flex-direction: column; 
   align-items: center;
   justify-content: center;
   margin: 50px 20px; 
   color: white;
-  
+
   @media (min-width: 768px) {
     flex-direction: row;
     margin: 100px 40px;
