@@ -8,6 +8,8 @@
  <br><br>react, styled-components, tmdb_api를 사용했습니다.
 
 ## 실행 결과
+실행 코드 : <a href ="https://shmovieweb.netlify.app">https://shmovieweb.netlify.app</a>
+
 ### 메인 화면
 ![image](https://github.com/user-attachments/assets/44ec92c6-b35f-4ec4-89ad-c006ce33e984)
 ### 메인 화면(768px 이하)
