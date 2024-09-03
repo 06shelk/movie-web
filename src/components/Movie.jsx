@@ -18,6 +18,10 @@ const MovieContainer = styled.div`
   img {
     max-width: 100%;
   }
+
+  @media (max-width: 768px) {
+    width: 80%;
+  }
 `;
 
 // Movie Info 스타일
@@ -49,35 +53,6 @@ const highlightMatch = (text, query) => {
         part.toLowerCase() === query.toLowerCase() ? <span key={index}>{part}</span> : part
     );
 };
-
-// function Rating(vote_average) {
-//   const stars = [];
-//   const filledStars = Math.floor(vote_average / 2); // 채워진 별의 개수
-//   const halfStar = vote_average % 2 >= 1; // 반쪽 별 여부
-//   const emptyStars = 5 - filledStars - (halfStar ? 1 : 0); // 빈 별의 개수
-
-
-//   for(var i=0; i< filledStars; i++){
-//       <>{stars.push("★")}</>
-//   }
-  
-//   // 반쪽 별 추가
-//   if (halfStar) {
-//     stars.push("☆");
-//   }
-
-//     // 빈 별 추가
-//   for (let i = 0; i < emptyStars; i++) {
-//     stars.push("☆");
-//   }
-
-//   return (
-//       <>
-//         {stars.join('')}
-//       </>
-//   )
-// }
-
 
 const Movie = ({ id, title, poster_path, vote_average, query }) => {
   const posterUrl = poster_path ? `${IMG_BASE_URL}${poster_path}` : DEFAULT_POSTER;
