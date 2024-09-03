@@ -103,8 +103,8 @@ const SearchIconWrapper = styled.div`
     outline: none;
     background-color: #373b69;
     border-bottom: 1px solid #888;
-    color: #888;
-  
+    color: white;
+    
   }
 `;
 
