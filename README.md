@@ -1,4 +1,4 @@
-
+![image](https://github.com/user-attachments/assets/d0effcde-287c-4810-b542-0ed6c5a30dc6)
 # movie_web 웹사이트
 
 ## 프로젝트 소개
@@ -11,12 +11,14 @@
 실행 코드 : <a href ="https://shmovieweb.netlify.app">https://shmovieweb.netlify.app</a>
 
 ### 메인 화면
-![image](https://github.com/user-attachments/assets/44ec92c6-b35f-4ec4-89ad-c006ce33e984)
+![image](https://github.com/user-attachments/assets/3ef98a5d-1965-451c-b54d-c63fd7be2175)
+
 ### 메인 화면(768px 이하)
-![image](https://github.com/user-attachments/assets/77a6276f-6033-4a1e-8820-0bad903c32f7)
+![image](https://github.com/user-attachments/assets/8968237e-ff35-4cee-8731-c98b3a2dd9fa)
+
 
 ### 검색 화면
-![image](https://github.com/user-attachments/assets/b6f3aba4-c04f-41ff-8323-2c055c4f29d7)
+![image](https://github.com/user-attachments/assets/6745cc1f-044b-4d87-8783-eb1b9fb7272b)
 
 ### 세부 화면
 ![image](https://github.com/user-attachments/assets/b9696fb0-0a2e-49c9-8c70-f1f990f14c50)
