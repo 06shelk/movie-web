@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import Rating from './Rating';
 
 const IMG_BASE_URL = "https://image.tmdb.org/t/p/w1280/";
 const DEFAULT_POSTER = "https://via.placeholder.com/250x375?text=No+Image";
@@ -49,6 +50,34 @@ const highlightMatch = (text, query) => {
     );
 };
 
+// function Rating(vote_average) {
+//   const stars = [];
+//   const filledStars = Math.floor(vote_average / 2); // 채워진 별의 개수
+//   const halfStar = vote_average % 2 >= 1; // 반쪽 별 여부
+//   const emptyStars = 5 - filledStars - (halfStar ? 1 : 0); // 빈 별의 개수
+
+
+//   for(var i=0; i< filledStars; i++){
+//       <>{stars.push("★")}</>
+//   }
+  
+//   // 반쪽 별 추가
+//   if (halfStar) {
+//     stars.push("☆");
+//   }
+
+//     // 빈 별 추가
+//   for (let i = 0; i < emptyStars; i++) {
+//     stars.push("☆");
+//   }
+
+//   return (
+//       <>
+//         {stars.join('')}
+//       </>
+//   )
+// }
+
 
 const Movie = ({ id, title, poster_path, vote_average, query }) => {
   const posterUrl = poster_path ? `${IMG_BASE_URL}${poster_path}` : DEFAULT_POSTER;
@@ -59,7 +88,7 @@ const Movie = ({ id, title, poster_path, vote_average, query }) => {
         <img src={posterUrl} alt={`${title} 포스터`} />
         <MovieInfo>
             <MovieInfoTitle>{highlightMatch(title, query)}</MovieInfoTitle>
-            <MovieInfoSpan>{vote_average}</MovieInfoSpan>
+            <MovieInfoSpan><Rating value={vote_average}/></MovieInfoSpan>
         </MovieInfo>
       </Link>
     </MovieContainer>
