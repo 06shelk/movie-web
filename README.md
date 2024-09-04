@@ -6,6 +6,8 @@
  이 웹사이트는 tmdb_api를 활용한 영화 웹사이트입니다. 
  <br>인브로즈님 " <a href ="https://www.youtube.com/watch?v=VkcaigvTrug">React 기본개념(Component, JSX, Props) 활용 예제 - 영화 앱 만들기</a> 영상을 참고하여  <br>추가로 검색, 세부 페이지를 구현한 코드입니다.
  <br><br>react, styled-components, tmdb_api를 사용했습니다.
+<br>
+vue 코드 작성 :  <a href ="https://github.com/06shelk/movie-web-vue">movie-web-vue</a>
 
 ## 실행 결과
 실행 코드 : <a href ="https://shmovieweb.netlify.app">https://shmovieweb.netlify.app</a>
